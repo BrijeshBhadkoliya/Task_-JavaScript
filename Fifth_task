@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const pi = 3.14;
+        let R_value = Number(prompt("Enter Your R Value :-"))
+        let ans;
+
+        ans = pi * R_value * R_value;
+        document.write("plzz wait and get your amswer...")
+        setTimeout(() => { document.write(`<big><b><big><b>Your Area of cricle is ${ans}`) }, 1000);
+
+
+    </script>
+</body>
+
+</html>
