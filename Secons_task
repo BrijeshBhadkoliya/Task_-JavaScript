@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    
+
+    <script>
+        let One = prompt("Enter First Number:") 
+        let Two =  prompt("Enter Second Number:") 
+        let Thred;
+
+        Thred  = One
+        One =  Two  
+        Two = Thred  
+
+        document.write(`Frist = ${One} <br>`)
+        document.write(`Second = ${Two} <br>`)
+       
+  
+     
+ 
+       
+    </script>
+ 
+</body>
+
+</html>
