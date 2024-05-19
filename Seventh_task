@@ -9,15 +9,15 @@
 
 <body>
     <script>
-        const main = 0.5;
-        let B_value = Number(prompt("Enter Your B Value :-"))
-        let H_value = Number(prompt("Enter Your H Value :-"))
 
+        let principle = Number(prompt("Enter Your Principle Value :-"))
+        let rate = Number(prompt("Enter Your Rate Value :-"))
+        let n = Number(prompt("Enter Your N Value :-"))
         let ans;
 
-        ans = main * B_value * H_value;
+        ans = principle * rate * n / 100;
         document.write("plzz wait and get your amswer...")
-        setTimeout(() => { document.write(`<big><b><big><b>Your Area of Triangle is ${ans}`) }, 1000);
+        setTimeout(() => { document.write(`<big><b><big><b>Your Rate of Interest is ${ans}`) }, 1000);
 
 
     </script>
