@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let salry = Number(prompt("Enter Your Monthly Salry"))
+        let HRS = salry * 10 / 100
+        let DA = salry * 5 / 100
+        let TA = salry * 8 / 100
+
+        let main = salry + HRS + DA + TA
+        
+        document.write(`<Big>Your gross salary is  <b> ${main}`)
+
+    </script>
+</body>
+
+</html>
