@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let Censias = Number(prompt("Enter Your Area Temprechter :-"))
+        let Fa;
+        document.write('<big><b>Please Wait for Convert Fahrenheit...')
+        Fa = Censias * (9 / 5) + 32;
+        Fa = parseInt(Fa)
+        setTimeout(() => { document.write(`<big><b><big><b>Your Area  Fahrenheit is ${Fa}`) }, 1000);
+    </script>
+</body>
+
+</html>
